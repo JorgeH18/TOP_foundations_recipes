@@ -1,10 +1,17 @@
+html {
+    height: 100%;
+}
+
 body {
-    font-family: 'Courier New', monospace;
+    font-family: 'Chakra+Petch', 'Courier New', monospace;
     line-height: 1.6;
     width: 80%;
     margin: 0 auto;
     background-color: #f5f5f5;
-    color: #333;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
 }
 
 h1 {
@@ -13,7 +20,7 @@ h1 {
     margin-top: 20px;
     font-size: 5rem;
     text-transform: capitalize;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0), 2px 2px 1px green;
+    text-shadow: 1px 1px 1px rgb(8, 105, 24), 2px 2px 1px black;
     text-align: center;
     letter-spacing: 2px;
 }
@@ -31,10 +38,6 @@ h1,
 h2,
 h3 {
     color: #3fa317;
-}
-
-p {
-    color: #555;
 }
 
 
@@ -63,7 +66,7 @@ ul {
 /* Style links */
 
 a {
-    color: #1976D2;
+    color: #0ba360;
     text-decoration: none;
 }
 
@@ -83,6 +86,11 @@ ul li a {
 
 .recipeList ul {
     text-align: center;
+    background-color: #161515;
+    padding: 10px;
+    border: 5px double white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .recipePage {
@@ -90,7 +98,25 @@ ul li a {
     margin: 0 auto;
 }
 
-.leftPanels,
+.leftPanels {
+    display: inline-block;
+    margin-bottom: 50px;
+    float: left;
+    width: 50%;
+    background-color: #161515;
+    padding: 10px;
+    border: 5px double white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
 .rightPanels {
     display: inline-block;
+    float: right;
+    width: 45%;
+    background-color: #161515;
+    padding: 10px;
+    border: 5px double white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
